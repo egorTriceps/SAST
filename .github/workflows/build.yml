@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       - uses: sonarsource/sonarqube-scan-action@master
         env:
-          SONAR_TOKEN:  qp_d6ca38c77ee30dde4192e0a89302edf0e6d7905d 
+          SONAR_TOKEN:  sqp_fc018f955deff40f9912cfc8a824b00955c43db0
           SONAR_HOST_URL: http://localhost:9000 
       # If you wish to fail your job when the Quality Gate is red, uncomment the
       # following lines. This would typically be used to fail a deployment.
